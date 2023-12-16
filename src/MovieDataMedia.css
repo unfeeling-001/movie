@@ -1,0 +1,67 @@
+@media (max-width:1024px) {
+    body{
+        width: 1024px;
+    }
+    .logo{
+        width: 50px;
+    }
+    .navbar1{
+        width: 100%;
+    }
+    .nav1 a p{
+        font-size: 20px;
+    }
+    .bg-img1{
+        width: 100%;
+    }
+    .section{
+        width: 100%;
+    }
+    .add_com{
+        width: 720px;
+    }
+}
+@media (max-width:450px) {
+    body{
+        width: 390px;
+    }
+    .bg-img1{
+        max-width: 860px !important;
+        width: 860px;
+    }
+    .nav1 a p{
+        font-size: 14px;
+    }
+    .background1{
+        overflow: hidden;
+    }
+    .section1{
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .movie_img1{
+        width: 350px;
+        height: 500px;
+    }
+    .comment div{
+        width: 100%;
+    }
+    .add_com{
+        width: 200px;
+    }
+    .comments{
+        width: 360px;
+        padding-right: 0px;
+    }
+    .comment-block{
+        width: 270px;
+    }
+    .section{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}

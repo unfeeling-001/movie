@@ -1,0 +1,20 @@
+.section2{
+    padding-bottom: 300px;
+}
+.preloading4{
+    display: grid !important;
+    padding: 0px !important;
+    width: 0% !important;
+    align-items: center !important;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 140px !important;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+}
+.all-movie4{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}

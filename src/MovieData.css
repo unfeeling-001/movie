@@ -1,0 +1,221 @@
+.body{
+    background: rgba(18, 24, 41, 0.917);
+    backdrop-filter: blur(20px);
+}
+.bg-color1{
+    width: 1440px;
+    margin: auto;
+}
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.nav1{
+    display: flex;
+    gap: 35px;
+}
+.background1{
+    position: relative;
+}
+.background1 img{
+    border-radius: 14px;
+}
+.nav1 p{
+    color: var(--grey-200, #A8AEBF);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    text-decoration: none;
+    border-bottom: none;
+}
+.nav1 p:hover{
+    cursor: pointer;
+}
+.bg-img1{
+    width: 1440px;
+    height: 580px;
+}
+.section1{
+    position: absolute;
+    border-radius: 24px;
+    background: rgba(32, 40, 62, 0.80);
+    backdrop-filter: blur(12px);
+    bottom: -40px;
+    left: 100px;
+}
+.movie_name1{
+    color: var(--grey-50, #EBEEF5);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px; /* 125% */
+    letter-spacing: -0.64px;
+    margin: 0px;
+    padding: 30px;
+    padding-right: 50px;
+}
+.movie_img1{
+    width: 480px;
+    height: 720px;
+    flex-shrink: 0;
+    border-radius: 40px;
+}
+.section{
+    margin: 0px;
+    width: 1240px;
+    display: flex;
+    margin: auto;
+    gap: 60px;
+    margin-top: 80px;
+    padding-bottom: 150px;
+}
+.movie_info{
+    display: flex;
+    flex-direction: column;
+
+}
+.opisanie p{
+    color: var(--grey-300, #8E95A9);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.movie-t{
+    color: var(--grey-400, #767E94);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.type{
+    color: var(--grey-100, #C3C8D4);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.relise{
+    color: var(--grey-400, #767E94);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.date{
+    color: var(--grey-100, #C3C8D4);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.movie-t{
+    color: var(--grey-400, #767E94);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.time{
+    color: var(--grey-100, #C3C8D4);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.genres1{
+    color: var(--grey-400, #767E94);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.genres-t{
+    color: var(--grey-100, #C3C8D4);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.raiting1{
+    display: flex;
+    gap: 7px;
+    width: 60px;
+    height: 32px;
+    align-items: center;
+    padding: 2px 4px;
+    border-radius: 8px;
+    background: var(--black-65, rgba(0, 0, 0, 0.65));
+    backdrop-filter: blur(4px);
+    justify-content: center;
+}
+.raiting1 p{
+    color: var(--warning-500, #FFAD49);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin: 0px;
+}
+.comment{
+    display: flex;
+    position: relative;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.add_com{
+    width: 870px;
+    height: 50px;
+    color: var(--primary-400, #7B6EF6);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    border-radius: 7px;
+    border: none;
+    background: var(--black-10, rgba(0, 0, 0, 0.10));
+    padding-left: 45px;
+}
+.add_com:focus{
+    outline: none;
+    border: 1px solid var(--grey-700, #323B54);
+}
+.search1{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+.add_com1{
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    color: white;
+    border: 2px solid var(--primary-400, #7B6EF6);
+    background: var(--primary-400, #7B6EF6);
+    width: 200px;
+}
+.footer1{
+    margin: 0px;
+}
+.comments{
+    display: flex;
+    width: 586px;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.comments p{
+    margin: 0px;
+    color: var(--primary-400, #7B6EF6);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+.comment-block{
+    display: flex;
+    gap: 8px;
+    border-radius: 12px;
+    opacity: 0.8;
+    background: var(--black-20, rgba(0, 0, 0, 0.20));border-radius: 12px;
+    margin-bottom: 30px;
+    width: 586px;
+    padding: 30px;
+}

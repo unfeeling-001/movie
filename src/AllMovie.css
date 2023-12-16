@@ -1,0 +1,23 @@
+.background2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.background2 h1{
+    color: var(--grey-200, #A8AEBF);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.rating2{
+    display: flex;
+}
+.rating2 p{
+    width: 20px;
+}
+.movies2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
